@@ -6,6 +6,14 @@ import java.util.*;
 
 class HelloWorld {
     public static void main(String[] args) {
+        // for (int i = 0; i <= 9; i++) {
+        // for (int j = 9; j >= i; j--) {
+        // System.out.print("* ");
+        // }
+        // System.out.println();
+
+        // }
+
         Scanner scn = new Scanner(System.in);
         boolean UserDesire = true;
         int num, max = Integer.MIN_VALUE, min = Integer.MAX_VALUE;
