@@ -24,6 +24,7 @@ public class FibonacciSeries {
             System.out.print(thirdTerm + " ");
             firstTerm = secondTerm;
             secondTerm = thirdTerm;
+
         }
 
     }

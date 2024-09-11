@@ -21,5 +21,21 @@ class HelloWorld {
             System.out.println("given number is not a prime");
         }
 
+        // int min = 3;
+        // int max = 100;
+        // // int count = 0;
+
+        // for (int i = min; i <= max; i++) {
+        // int count = 0;
+        // for (int j = 1; j <= i; j++) {
+        // if (i % j == 0) {
+        // count++;
+        // }
+        // }
+        // if (count == 2) {
+        // System.out.println("the numbers are " + i);
+        // }
+        // }
+
     }
 }
