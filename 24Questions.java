@@ -327,8 +327,117 @@ class Questions {
                 number /= i;
             }
         }
-
         // 20
+        // armstrong;
+        // for(int i=1;i<=1000;i++){
+        // int number = i;
+        // int Originalnumber = i;
+        // int count = 0;
+        // while(number!=0){
+        // number/=10;
+        // count++;
+        // }
+        // //System.out.println(i + " has " + count+" :" );
+        // int sum = 0;
+        // while(Originalnumber!=0){
+        // int remainder = Originalnumber%10;
+        // sum+=Math.pow(remainder,count);
+        // Originalnumber/=10;
+        // }
+        // if(sum == i){
+        // System.out.println(sum +" is a armstrong");
+        // }
+        // }
+        // fibonacci series
+        // int min = 1;
+        // int max = 1000;
+        // int FT = 0;
+        // int ST = 1;
+        // if(FT<=1000){
+        // System.out.print(FT +" " +ST+" ");
+        // }
+        // for(int i=min;i<=max;i++){
+
+        // int TT = FT+ST;
+        // FT = ST;
+        // ST = TT;
+
+        // if(TT >= max){
+        // break;
+        // }
+        // System.out.print(TT + " ");
+
+        // }
+        // 3 perfect
+
+        // for(int i=1;i<=10000;i++){
+        // int number = i;
+        // int sum = 0;
+        // for(int j=1;j<i;j++){
+        // if(i%j==0){
+        // sum+=j;
+        // }
+
+        // }
+
+        // if(sum == number){
+        // System.out.print(sum + " ");
+        // }
+        // }
+        // for(int i=1;i<=10;i++){
+        // int fact = Facto(i);
+        // System.out.print(fact + " ");
+        // }
+
+        // }
+        // public static int Facto(int a ){
+        // int sum = 1;
+        // for(int i=1;i<=a;i++){
+        // sum*=i;
+        // }
+        // return sum;
+
+        // prime number
+
+        // int number =4;
+        // boolean isPrime = true;
+
+        // for(int i=2;i<number;i++){
+        // if(number%i==0){
+        // isPrime = false;
+        // }
+        // }
+        // if(isPrime){
+        // System.out.print( " is a prime number");
+        // }else{
+        // System.out.print(" not a prime");
+        // }
+
+        // for(int i=2;i<100;i++){
+        // int count = 0;
+        // for(int j=2;j<i;j++){
+        // if(i%j!=0){
+        // count++;
+        // }
+
+        // }
+        // if(count ==2){
+        // System.out.print(i + " ");
+        // }
+
+        // }
+
+        for (int i = 2; i <= 100; i++) {
+            boolean prime = true;
+            for (int j = 2; j < Math.sqrt(i); j++) {
+                if (i % j == 0) {
+                    prime = false;
+                }
+            }
+            if (prime) {
+                System.out.print(i + " ");
+            }
+        }
 
     }
 }

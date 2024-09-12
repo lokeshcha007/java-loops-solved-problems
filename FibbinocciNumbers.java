@@ -8,7 +8,7 @@ public class FibbinocciNumbers {
         int max = 1000;
         int firstTerm = 0;
         int secondTerm = 1;
-        if (firstTerm <= max) {
+        if (firstTerm <= max && secondTerm <= max) {
             System.out.print(firstTerm + " " + secondTerm + " ");
         }
         for (int i = min; i <= max; i++) {
